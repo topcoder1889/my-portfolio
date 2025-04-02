@@ -215,7 +215,7 @@ export default function Page() {
               </div>
             </div>
           </section>
-          {/* <section id="awards">
+          <section id="awards">
             <div className="space-y-12 w-full py-12">
               <BlurFade delay={BLUR_FADE_DELAY * 13}>
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -249,7 +249,7 @@ export default function Page() {
                 </ul>
               </BlurFade>
             </div>
-          </section> */}
+          </section>
           <div className="pb-10">
             <Navbar />
           </div>

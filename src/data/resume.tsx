@@ -80,11 +80,19 @@ export const DATA = {
       logoUrl: "icons/codal-logo.jpeg",
       start: "Sep 2021",
       end: "Dec 2024",
-      description: `Codal is an design and development consultancy that helps enterprise organizations solve complex problems and accelerate growth through cutting-edge, data-driven digital solutions.
-
-      As a Senior Full Stack developer at Codal, I collaborated with key stakeholders to deliver innovative digital solutions for clients across various industries, utilizing React, Next.js, and Node.js to build scalable applications that enhance performance, security, and user experience, while integrating Stripe and PayPal for seamless payment processing.
-
-      Tech Stack: React.js, Node.js, Nuxt.js, Redux, Next.js, Typescript, Postgres, Tailwind, GCP, AWS, CI/CD, Jest, Enzyme, Stripe, PayPal`,
+      description: (
+        <>
+          <p>
+            Codal is a design and development consultancy that helps enterprise organizations solve complex problems and accelerate growth through cutting-edge, data-driven digital solutions.
+          </p>
+          <p>
+            As a Senior Full Stack developer at Codal, I collaborated with key stakeholders to deliver innovative digital solutions for clients across various industries, utilizing React, Next.js, and Node.js to build scalable applications that enhance performance, security, and user experience, while integrating Stripe and PayPal for seamless payment processing.
+          </p>
+          <p>
+            Tech Stack: React.js, Node.js, Nuxt.js, Redux, Next.js, Typescript, Postgres, Tailwind, GCP, AWS, CI/CD, Jest, Enzyme, Stripe, PayPal
+          </p>
+        </>
+      ),
     },
     {
       company: "Busy Human",
@@ -95,9 +103,19 @@ export const DATA = {
       logoUrl: "icons/busyhuman-logo.jpeg",
       start: "Jun 2020",
       end: "Sep 2021",
-      description: `Busy Human is a custom software development company
-
-      Tech Stack: React.js, Redux, Next.js, Typescript, Jest, Cypress, Node.js, Nest.js, Jenkins, Docker Postgres, Tailwind, GCP`,
+      description: (
+        <>
+          <p>
+            Busy Human is a custom software development company
+          </p>
+          <p>
+            I optimized site performance by integrating Gatsby for faster page loads and managed data efficiently using Redux with Redux-Saga and Redux-Thunk. On the backend, I enhanced application speed by 30% using Java, Spring MVC, and Hibernate, while ensuring smooth data handling with Prisma and PostgreSQL. Additionally, I improved responsiveness with React MUI, CSS, SASS, Bootstrap, and TailwindCSS and streamlined deployments using Jenkins, Docker, AWS, and Heroku.
+          </p>
+          <p>
+            Tech Stack: React.js, Redux, Next.js, Typescript, Jest, Cypress, Node.js, Nest.js, Jenkins, Docker Postgres, Tailwind, GCP
+          </p>
+        </>
+      ),
     },
     {
       company: "Vention",
@@ -108,9 +126,19 @@ export const DATA = {
       logoUrl: "icons/vention-logo.jpeg",
       start: "May 2016",
       end: "May 2020",
-      description: `​Vention is a prominent software development company with over 20 years of experience, specializing in delivering cutting-edge, scalable solutions for startups and tech-powered enterprises worldwide. 
-
-      Tech Stack: React.js, Redux, Next.js, Typescript, Postgres, Tailwind, Docker, AWS`,
+      description: (
+        <>
+          <p>
+           Vention is a prominent software development company with over 20 years of experience, specializing in delivering cutting-edge, scalable solutions for startups and tech-powered enterprises worldwide.
+          </p>
+          <p>
+            I enhanced website performance and SEO by leveraging Next.js for scalable, server-rendered applications and improved code quality with TypeScript, reducing bugs and boosting maintainability. I also implemented automated testing using Jest, Enzyme, and Cypress and optimized data handling by 35% through seamless RESTful API integration with Node.js and Express.js.
+          </p>
+          <p>
+            Tech Stack: React.js, Redux, Next.js, Typescript, Postgres, Tailwind, Docker, AWS
+          </p>
+        </>
+      ),
     },
   ],
   education: [
@@ -235,5 +263,38 @@ export const DATA = {
         },
       ],
     },
-  ]
+  ],
+  awards: [
+    {
+      title: "Swinburne Emerging Leader Program",
+      dates: "Nov, 2024",
+      location: "Hawthorn Campus, Australia",
+      description:
+        "The Swinburne Emerging Leader Program is an initiative designed to identify and nurture high-potential students, providing them with opportunities to develop critical leadership skills and enhance their employability through practical experiences and mentorship, preparing them for future professional roles within their chosen fields",
+      image: "icons/swinburne.png",
+      links: [
+        {
+          title: "Certificate",
+          icon: <GrCertificate className="h-3 w-3" />,
+          href: "./quanghuy-cert.pdf",
+        },
+      ],
+    },
+    {
+      title: "Swinburne International Excellence Undergraduate Scholarship",
+      dates: "Dec, 2022",
+      location: "Hawthorn Campus, Australia",
+      description:
+        "This scholarship is a merit-based scholarship offered to international students commencing an undergraduate or postgraduate course at Swinburne University Hawthorn campus.",
+      // technologies: [""],
+      image: "icons/swinburne.png",
+      links: [
+        {
+          title: "Certificate",
+          icon: <GrCertificate className="h-3 w-3" />,
+          href: "./nguyen-quang-huy-pham-scholarship.pdf",
+        },
+      ],
+    },
+  ],
 } as const;
